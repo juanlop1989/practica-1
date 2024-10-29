@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import style from '../EstilosGlobales/Button.module.css'
 
 export default function Home() {
   return (
@@ -7,6 +9,8 @@ export default function Home() {
         
       
       <h1>Primera aplicacion en NextJs!!!!</h1>
+
+      <Link href="/contacto" className={style.buttonLink}>Ir a contacto</Link>
     
       </main>
     
